@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+.navbar{
+  background: linear-gradient(90deg, rgba(255,255,84,1) 0%, rgba(170,255,255,1) 74%, rgba(170,255,255,1) 100%);
+  font-family: 'Bangers', cursive;
+  & span{
+    font-size: 32px;
+  }
+  .navbar-brand img{
+    width: 150px;
+  }
+  .navbar-brand p{
+    font-size: 40px;
+  }
+}
+
+.moving__icons{
+  height: 100px;
+  margin-top: 100px;
+}
+.moving__icons__animation{
+  height: 100px;
+  width: 100vw;
+  position: relative;
+  & img:nth-child(1){
+    position: absolute;
+    width: 100vw;
+    animation: play 30s infinite;
+    animation-timing-function: linear;
+  }
+  & img:nth-child(2){
+    position: absolute;
+    width: 100vw;
+    animation: play 30s infinite;
+    animation-timing-function: linear;
+    animation-delay: 15s;
+    animation-fill-mode: backwards;
+  }
+}
+
+@keyframes play{
+  from { left: 100%;}
+  to { left: -100%; }
+}

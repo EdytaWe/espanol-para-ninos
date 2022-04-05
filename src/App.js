@@ -1,26 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import Header from "./components/Header/Header";
 import "./scss/main.scss"
+import numbers from "./components/database/numbers";
+
+const number = {
+    number: 1,
+    text: "hola fafu. que tal? te gusta tu amiga?",
+}
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const buttonClick= () =>{
+        let utter = new SpeechSynthesisUtterance();
+        utter.lang = 'es';
+        utter.text = number.text;
+        utter.volume = 0.5;
+        window.speechSynthesis.speak(utter);
+    }
+    return (
+
+        <>
+            <Header />
+        <button onClick={buttonClick}> klik</button>
+        </>
+    );
+
 }
 
 export default App;
