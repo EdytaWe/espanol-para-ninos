@@ -1,29 +1,25 @@
 import React, { useEffect, useState } from 'react';
+//import {HashRouter, Route, Link, Switch, NavLink,} from 'react-router-dom';
 import Header from "./components/Header/Header";
 import "./scss/main.scss"
-import Body from "./components/Body/Body";
-import numbers from "./components/database/numbers";
+import Body from "./components/Main/Body";
+import Numbers from "./components/Numbers/Numbers";
 
-const number = {
-    number: 1,
-    text: "hola. que tal? te gusta tu amiga?",
-}
+
+
 
 function App() {
-    const buttonClick= () =>{
-        let utter = new SpeechSynthesisUtterance();
-        utter.lang = 'es';
-        utter.text = number.text;
-        utter.volume = 0.5;
-        window.speechSynthesis.speak(utter);
-    }
     return (
+        // <HashRouter>
+            <>
+                <Header />
 
-        <>
-            <Header />
-            <Body />
-        <button onClick={buttonClick}> klik</button>
-        </>
+                <Body />
+                <Numbers/>
+
+            </>
+        // </HashRouter>
+
     );
 
 }

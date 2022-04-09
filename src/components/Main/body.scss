@@ -1,7 +1,13 @@
 @import "src/scss/variables";
 
-main{
-  padding-top: 100px;
+body{
+  padding-top: 0;
+  @media (min-width: 992px) {
+    padding-top: 50px;
+  }
+  @media (min-width: 1400px) {
+    padding-top: 100px;
+  }
 }
 
 .task {

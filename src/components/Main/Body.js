@@ -11,9 +11,10 @@ function Body() {
                     <TaskSelect name="Rodzina" spanishName="Familia" img="./img/family.png"/>
                     <TaskSelect name="Powitania" spanishName="Saludos" img="./img/welcome.png"/>
 
-
                 </div>
+
             </div>
+
         </body>
     )
 }

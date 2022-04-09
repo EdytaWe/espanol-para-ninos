@@ -8,10 +8,11 @@ function User() {
         if(localStorage.getItem('name')){
             setUser(user);
         }else{
-            // const newUser = prompt("Cześć! Wygląda na to, że jesteś tu pierwszy raz! Jak masz na imię?");
-            // setUser(newUser);
-            window.localStorage.setItem("name", prompt("Cześć! Wygląda na to, że jesteś tu pierwszy raz! Jak masz na imię?"));
-            setUser(localStorage.getItem('name'));
+            const newUser = prompt("Cześć! Wygląda na to, że jesteś tu pierwszy raz! Jak masz na imię?");
+            setUser(newUser);
+            window.localStorage.setItem("name", `${newUser}`)
+                // prompt("Cześć! Wygląda na to, że jesteś tu pierwszy raz! Jak masz na imię?"));
+            // setUser(localStorage.getItem('name'));
         }
     })
     // const newUser = prompt("Cześć! Wygląda na to, że jesteś tu pierwszy raz! Jak masz na imię?")
