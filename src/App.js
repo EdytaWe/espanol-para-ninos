@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import Header from "./components/Header/Header";
 import "./scss/main.scss"
+import Main from "./components/Main/Main";
 import numbers from "./components/database/numbers";
 
 const number = {
     number: 1,
-    text: "hola fafu. que tal? te gusta tu amiga?",
+    text: "hola. que tal? te gusta tu amiga?",
 }
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 
         <>
             <Header />
+            <Main />
         <button onClick={buttonClick}> klik</button>
         </>
     );
