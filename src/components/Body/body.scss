@@ -4,18 +4,23 @@ main{
   padding-top: 100px;
 }
 
-.task{
-  height: 371px;
+.task {
   border: 2px solid $yellow-color;
   border-radius: 8px;
   box-shadow: -1px 4px 25px -11px $blue-color;
   padding: 1rem;
-  & span{
+
+  & span {
     font-size: 3rem;
     font-weight: bold;
   }
-  &__img{
-    width: 70%;
-    height: 70%;
+
+  &__img {
+    width: auto;
+    height: 125px;
+    & img{
+      object-fit: contain;
+      height: 125px;
+    }
   }
 }

@@ -8,3 +8,7 @@ body{
   color: $text-color;
   overflow-x: hidden;
 }
+
+* {
+  outline: 1px solid red;
+}

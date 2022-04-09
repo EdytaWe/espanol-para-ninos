@@ -1,19 +1,20 @@
 import React from 'react';
-import './main.scss';
+import './body.scss';
 import TaskSelect from "./TaskSelect";
 
-function Main() {
+function Body() {
     return(
-        <main>
+        <body>
             <div className="container">
                 <div className="row tasks">
                     <TaskSelect name="Liczby" spanishName="Números" img="./img/numbers.jpg"/>
                     <TaskSelect name="Rodzina" spanishName="Familia" img="./img/family.png"/>
+                    <TaskSelect name="Powitania" spanishName="Saludos" img="./img/welcome.png"/>
 
 
                 </div>
             </div>
-        </main>
+        </body>
     )
 }
-export default Main
+export default Body

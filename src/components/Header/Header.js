@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.scss';
 import Icons from "./Icons";
+import User from "./User";
 
 function Header() {
     return (
@@ -11,7 +12,7 @@ function Header() {
                         <img src="./img/sombrero.png" alt="sombrero" className="img-fluid"/>
                         <p className="ms-3">ESPAÑOL PARA NIÑOS</p>
                     </div>
-                    <span>Hola <span>imię użytkownika</span></span>
+                    <User />
                 </div>
             </nav>
             <Icons/>

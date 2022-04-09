@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from "./components/Header/Header";
 import "./scss/main.scss"
-import Main from "./components/Main/Main";
+import Body from "./components/Body/Body";
 import numbers from "./components/database/numbers";
 
 const number = {
@@ -21,7 +21,7 @@ function App() {
 
         <>
             <Header />
-            <Main />
+            <Body />
         <button onClick={buttonClick}> klik</button>
         </>
     );
