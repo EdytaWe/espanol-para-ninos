@@ -1,7 +1,7 @@
 import React from 'react';
 import './body.scss';
 import TaskSelect from "./TaskSelect";
-// import {HashRouter, Route, Link, Switch, NavLink,} from 'react-router-dom';
+
 
 function Body() {
     return(
@@ -9,9 +9,9 @@ function Body() {
             <body>
             <div className="container">
                 <div className="row tasks">
-                    <TaskSelect name="Liczby" spanishName="Números" img="./img/numbers.jpg"/>
-                    <TaskSelect name="Rodzina" spanishName="Familia" img="./img/family.png"/>
-                    <TaskSelect name="Powitania" spanishName="Saludos" img="./img/welcome.png"/>
+                    <TaskSelect name="Liczby" spanishName="Números" img="./img/numbers.jpg" link="/numbers"/>
+                    <TaskSelect name="Rodzina" spanishName="Familia" img="./img/family.png" link="/numbers"/>
+                    <TaskSelect name="Powitania" spanishName="Saludos" img="./img/welcome.png" link="/numbers"/>
 
                 </div>
 

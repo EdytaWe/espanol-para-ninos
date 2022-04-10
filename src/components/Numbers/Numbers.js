@@ -2,7 +2,6 @@ import React from 'react';
 import './numbers.scss';
 import numbersArray from "./numbersArray";
 import Tile from "../base/Tile";
-import {speak} from "../base/speak";
 
 function Numbers() {
     return(

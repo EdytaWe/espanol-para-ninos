@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-// import {HashRouter, Route, Link, Switch, NavLink,} from 'react-router-dom';
+import React from 'react';
+import {BrowserRouter, Routes, Route, Link, NavLink,} from 'react-router-dom';
 import Header from "./components/Header/Header";
 import "./scss/main.scss"
 import Body from "./components/Main/Body";
@@ -12,13 +12,14 @@ function App() {
     return (
 
             <>
-
                 <Header />
+                <BrowserRouter>
+                    <Routes>
+                        <Route path="/" element={<Body />} />
+                        <Route path="numbers" element={<Numbers />} />
+                    </Routes>
+                </BrowserRouter>
 
-                {/*<Route exact path='/' component={Body}/>*/}
-                    {/*<Route path='/numbers' component={Numbers}/>*/}
-                <Body />
-                <Numbers />
 
 
 
