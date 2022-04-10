@@ -1,0 +1,37 @@
+@import "src/scss/variables";
+@import "src/scss/main";
+
+.tile{
+  border: 2px solid $blue-color;
+  border-radius: 7px;
+  box-shadow: -1px 4px 25px -11px $yellow-color;
+  color: $main-color;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.song{
+  color: $text-color;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+figure {
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 */
+  position: relative;
+  width: 100%;
+  & iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+.exercises{
+  &__title{
+    font-size: 2.5rem;
+    color: $text-color;
+    font-weight: bold;
+  }
+}

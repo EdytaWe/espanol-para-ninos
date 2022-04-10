@@ -1,14 +1,15 @@
 @import "src/scss/variables";
 
-body{
-  padding-top: 0;
-  @media (min-width: 992px) {
-    padding-top: 50px;
+.tasks{
+    padding-top: 0;
+    @media (min-width: 992px) {
+      padding-top: 50px;
+    }
+    @media (min-width: 1400px) {
+      padding-top: 100px;
+    }
   }
-  @media (min-width: 1400px) {
-    padding-top: 100px;
-  }
-}
+
 
 .task {
   border: 2px solid $yellow-color;

@@ -1,10 +1,12 @@
 import React from 'react';
 import './body.scss';
 import TaskSelect from "./TaskSelect";
+// import {HashRouter, Route, Link, Switch, NavLink,} from 'react-router-dom';
 
 function Body() {
     return(
-        <body>
+
+            <body>
             <div className="container">
                 <div className="row tasks">
                     <TaskSelect name="Liczby" spanishName="Números" img="./img/numbers.jpg"/>
@@ -15,7 +17,9 @@ function Body() {
 
             </div>
 
-        </body>
+            </body>
+
+
     )
 }
 export default Body

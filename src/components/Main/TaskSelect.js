@@ -1,10 +1,10 @@
 import React from 'react';
 import './body.scss';
-import {speak} from "./speak";
+import {speak} from "../base/speak";
 
 function TaskSelect({name, spanishName, img}) {
     return(
-        <div className="col-sm-6 col-md-4">
+        <div className="col-sm-6 col-md-4 my-3">
         <div className="task d-flex flex-column align-items-center">
             <span key={name}>{spanishName}</span>
             <div className="task__img d-flex align-items-center justify-content-center">

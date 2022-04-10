@@ -9,8 +9,10 @@ function User() {
             setUser(user);
         }else{
             const newUser = prompt("Cześć! Wygląda na to, że jesteś tu pierwszy raz! Jak masz na imię?");
-            setUser(newUser);
-            window.localStorage.setItem("name", `${newUser}`)
+            if(prompt.length >=2){
+                setUser(newUser);
+                localStorage.setItem("name", newUser)
+            }
                 // prompt("Cześć! Wygląda na to, że jesteś tu pierwszy raz! Jak masz na imię?"));
             // setUser(localStorage.getItem('name'));
         }
