@@ -22,7 +22,7 @@ function Numbers() {
                 <span className="col-md-6 mb-3 mb-md-0 text-center align-self-center">By utrwalić to, czego się nauczyłeś posłuchaj piosenki!</span>
                 <div className="col-md-6">
                     <figure>
-                        <iframe src="https://www.youtube.com/embed/8ydJr1Is8xI">
+                        <iframe src="https://www.youtube.com/embed/8ydJr1Is8xI" title="numbers song">
                         </iframe>
                     </figure>
                 </div>
