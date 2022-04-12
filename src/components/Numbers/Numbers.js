@@ -3,7 +3,7 @@ import './numbers.scss';
 import numbersArray from "./numbersArray";
 import Tile from "../base/Tile";
 import Quiz from "../base/Quiz";
-import {getRandomIntInclusive} from "../base/getRandomNumber";
+
 
 
 function Numbers() {
@@ -37,8 +37,8 @@ function Numbers() {
                     numbersArray.map(el =>{
                         return(
 
-                                <Quiz key={el.id} sound={el.spain} img1={el.picture} id1={getRandomIntInclusive(1,2)} img2={el.alternate} id2={getRandomIntInclusive(1,2)}/>
-
+                                // <Quiz key={el.id} sound={el.spain} img1={el.picture} id1={getRandomIntInclusive(1,2)} img2={el.alternate} id2={getRandomIntInclusive(1,2)}/>
+                            <Quiz key={el.id} sound={el.spain} img={el.picture} img2={el.alternate}/>
                         )
                     })
                 }
