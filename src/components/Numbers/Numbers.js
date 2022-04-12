@@ -2,11 +2,14 @@ import React from 'react';
 import './numbers.scss';
 import numbersArray from "./numbersArray";
 import Tile from "../base/Tile";
+import Quiz from "../base/Quiz";
+import {getRandomIntInclusive} from "../base/getRandomNumber";
+
 
 function Numbers() {
     return(
-        <body>
-        <div className="container">
+        <div>
+        <div className="container numbers">
             <div className="row">
                 {
                     numbersArray.map(el =>{
@@ -30,14 +33,22 @@ function Numbers() {
             <section>
             <p className="text-center py-3 exercises__title">A teraz czas na zadania:</p>
             <div className="row py-3">
-                <div className="col-12">
+                {
+                    numbersArray.map(el =>{
+                        return(
 
-                </div>
+                                <Quiz key={el.id} sound={el.spain} img1={el.picture} id1={getRandomIntInclusive(1,2)} img2={el.alternate} id2={getRandomIntInclusive(1,2)}/>
+
+                        )
+                    })
+                }
+
+
             </div>
             </section>
         </div>
 
-        </body>
+        </div>
     )
 }
 export default Numbers

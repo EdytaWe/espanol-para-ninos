@@ -1,0 +1,15 @@
+@import "src/scss/variables";
+
+
+.quiz {
+  &__container{
+    border: 2px solid $main-color;
+
+}
+  &__img {
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: contain;
+  }
+}

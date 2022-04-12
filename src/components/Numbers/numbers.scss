@@ -1,6 +1,16 @@
 @import "src/scss/variables";
 @import "src/scss/main";
 
+.numbers{
+  padding-top: 0;
+  @media (min-width: 992px) {
+    padding-top: 50px;
+  }
+  @media (min-width: 1400px) {
+    padding-top: 100px;
+  }
+}
+
 .tile{
   border: 2px solid $blue-color;
   border-radius: 7px;
@@ -9,6 +19,14 @@
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: bold;
+  &__img {
+    width: auto;
+    height: 125px;
+    & img{
+      object-fit: contain;
+      height: 125px;
+    }
+  }
 }
 .song{
   color: $text-color;
