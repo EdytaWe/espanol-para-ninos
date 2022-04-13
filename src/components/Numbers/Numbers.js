@@ -32,16 +32,9 @@ function Numbers() {
             </section>
             <section>
             <p className="text-center py-3 exercises__title">A teraz czas na zadania:</p>
+                <p className="text-center py-3 exercise__one">1. Posłuchaj słowa i wybierz poprawny obrazek.</p>
             <div className="row py-3">
-                {
-                    numbersArray.map(el =>{
-                        return(
-
-                                // <Quiz key={el.id} sound={el.spain} img1={el.picture} id1={getRandomIntInclusive(1,2)} img2={el.alternate} id2={getRandomIntInclusive(1,2)}/>
-                            <Quiz key={el.id} sound={el.spain} img={el.picture} img2={el.alternate}/>
-                        )
-                    })
-                }
+                <Quiz key={numbersArray[0].id} sound={numbersArray[0].spain} img1={numbersArray[0].picture} id1={1} img2={numbersArray[0].alternate} id2={2}/>
 
 
             </div>

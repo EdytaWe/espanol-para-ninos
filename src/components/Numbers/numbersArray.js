@@ -12,24 +12,24 @@ const numbers = [
         number: "2",
         spain: "dos",
         polish: "dwa",
-        picture: "./img/",
-        alternate: "./img"
+        picture: "./img1/",
+        alternate: "./img2"
     },
     {
         id: 3,
         number: "3",
         spain: "tres",
         polish: "trzy",
-        picture: "./img/",
-        alternate: "./img"
+        picture: "./img1/",
+        alternate: "./img2"
     },
     {
         id: 4,
         number: "4",
         spain: "cuatro",
         polish: "cztery",
-        picture: "./img/",
-        alternate: "./img"
+        picture: "./img1/",
+        alternate: "./img2"
     },
     {
         id: 5,
@@ -44,8 +44,8 @@ const numbers = [
         number: "6",
         spain: "seis",
         polish: "sześć",
-        picture: "./img/",
-        alternate: "./img"
+        picture: "./img1/",
+        alternate: "./img1"
     },
     {
         id: 7,
