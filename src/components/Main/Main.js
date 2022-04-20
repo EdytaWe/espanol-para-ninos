@@ -1,13 +1,14 @@
 import React from 'react';
 import './body.scss';
 import TaskSelect from "./TaskSelect";
+import FooterOne from "../Footer/FooterOne";
 
 
 function Main() {
     return(
 
             <>
-            <div className="container">
+            <div className="container pb-5">
                 <div className="row tasks">
                     <p>Wybierz czego chcesz się dziś nauczyć:</p>
                     <TaskSelect name="Powitania" spanishName="Saludos" img="./img/welcome.png" link="/numbers"/>
@@ -19,6 +20,8 @@ function Main() {
                 </div>
 
             </div>
+
+                <FooterOne />
 
             </>
 

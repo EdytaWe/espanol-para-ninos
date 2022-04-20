@@ -1,0 +1,33 @@
+@import "src/scss/variables";
+
+footer{
+  background-color: $yellow-color;
+}
+
+.footer__one{
+  background-color: $blue-color;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  color: $main-color;
+  input{
+    margin: 7px 0;
+    color: $main-color;
+  }
+  label{
+    display: flex;
+    flex-direction: column;
+    textarea{
+      margin-top: 5px;
+      color: $main-color;
+    }
+  }
+  button{
+    background-color: $main-color;
+    color: $text-color;
+    font-size: 1rem;
+    width: 100px;
+  }
+}

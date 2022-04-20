@@ -82,8 +82,8 @@ const numbers = [
 ]
 export default numbers
 
-const numbersMemo = ["./img/numbers/1.png", "./img/numbers/1.png", "./img/numbers/2.png", "./img/numbers/2.png",
-    "./img/numbers/3.png", "./img/numbers/3.png", "./img/numbers/4.png", "./img/numbers/4.png", "./img/numbers/5.png",
-    "./img/numbers/5.png", "./img/numbers/6.png", "./img/numbers/6.png", "./img/numbers/7.png", "./img/numbers/7.png",
-    "./img/numbers/8.png", "./img/numbers/8.png", "./img/numbers/9.png", "./img/numbers/9.png", "./img/numbers/10.png",
-    "./img/numbers/10.png"]
+// const numbersMemo = ["./img/numbers/1.png", "./img/numbers/1.png", "./img/numbers/2.png", "./img/numbers/2.png",
+//     "./img/numbers/3.png", "./img/numbers/3.png", "./img/numbers/4.png", "./img/numbers/4.png", "./img/numbers/5.png",
+//     "./img/numbers/5.png", "./img/numbers/6.png", "./img/numbers/6.png", "./img/numbers/7.png", "./img/numbers/7.png",
+//     "./img/numbers/8.png", "./img/numbers/8.png", "./img/numbers/9.png", "./img/numbers/9.png", "./img/numbers/10.png",
+//     "./img/numbers/10.png"]
