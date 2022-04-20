@@ -8,6 +8,11 @@
     @media (min-width: 1400px) {
       padding-top: 100px;
     }
+  & p{
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 30px;
+  }
   }
 
 
@@ -16,10 +21,13 @@
   border-radius: 8px;
   box-shadow: -1px 4px 25px -11px $blue-color;
   padding: 1rem;
+  text-decoration: none;
 
   & span {
     font-size: 3rem;
     font-weight: bold;
+    text-decoration: underline;
+    color: $red-color;
   }
 
   &__img {

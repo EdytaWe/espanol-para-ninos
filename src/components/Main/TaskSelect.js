@@ -8,7 +8,7 @@ function TaskSelect({name, spanishName, img, link}) {
         <Link to={link} className="col-sm-6 col-md-4 my-3">
             <div>
                 <div className="task d-flex flex-column align-items-center">
-                    <span key={name}>{spanishName}</span>
+                    <span key={name} className="pb-3">{spanishName}</span>
                     <div className="task__img d-flex align-items-center justify-content-center">
                         <img src={img} alt={name} className="img-fluid"/>
                     </div>

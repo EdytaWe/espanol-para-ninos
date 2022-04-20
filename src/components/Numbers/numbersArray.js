@@ -65,9 +65,9 @@ const numbers = [
     },
     {
         id: 9,
-        number: "2",
-        spain: "dos",
-        polish: "dwa",
+        number: "9",
+        spain: "nueve",
+        polish: "dziewięć",
         picture: "./img/numbers/9.png",
         alternate:"./img/numbers/4.png"
     },

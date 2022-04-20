@@ -13,6 +13,19 @@
     background-size: contain;
   }
 }
+.sombrero{
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+  display: none;
+  margin-right: 20px;
+}
+
+.win{
+  display: inline-block;
+  -webkit-animation: rotate-scale-up-ver 0.65s linear both;
+  animation: rotate-scale-up-ver 0.65s linear both;
+}
 .shake__horizontal{
   animation:shake-horizontal .8s cubic-bezier(.455,.03,.515,.955) both
 }
@@ -22,3 +35,35 @@
   20%,40%,60%{transform:translateX(10px)}
   80%{transform:translateX(8px)}
   90%{transform:translateX(-8px)}}
+
+
+
+@-webkit-keyframes rotate-scale-up-ver {
+  0% {
+    -webkit-transform: scale(1) rotateY(0);
+    transform: scale(1) rotateY(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateY(180deg);
+    transform: scale(2) rotateY(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateY(360deg);
+    transform: scale(1) rotateY(360deg);
+  }
+}
+@keyframes rotate-scale-up-ver {
+  0% {
+    -webkit-transform: scale(1) rotateY(0);
+    transform: scale(1) rotateY(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateY(180deg);
+    transform: scale(2) rotateY(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateY(360deg);
+    transform: scale(1) rotateY(360deg);
+  }
+}
+

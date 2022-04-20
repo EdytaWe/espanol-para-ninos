@@ -5,21 +5,23 @@ import classnames from 'classnames';
 
 function Quiz({sound, img1, id1, img2, id2}) {
     const [shake, setShake] = useState(false)
+    const [rotate, setRotate] = useState(false)
     const check = (e) =>{
         if(e.id1 === 1 || e.id2 === 1){
-           console.log(e.target)
             console.log("jest 1")
             setShake(false);
-
+            setRotate(true);
         } else{
             console.log("jest 0")
             setShake(true)
+            setRotate(false)
 
         }
     }
     return(
         <>
-            <div className="col-12 text-center">
+            <div className="col-12 text-center pt-5">
+                <img src="./img/sombrero.png" alt="sombrero" className={classnames('sombrero', {'win': rotate})}/>
                 <span className="bi bi-megaphone-fill display-1" onClick={() => speak(`{${sound}`)}/>
                 <div className="quiz d-flex justify-content-center">
                     <div className="quiz__container mx-1 mx-sm-4 p-sm-3">

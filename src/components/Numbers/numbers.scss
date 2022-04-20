@@ -10,31 +10,18 @@
     padding-top: 100px;
   }
 }
-
-.tile{
-  border: 2px solid $blue-color;
-  border-radius: 7px;
-  box-shadow: -1px 4px 25px -11px $yellow-color;
-  color: $main-color;
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  &__img {
-    width: auto;
-    height: 125px;
-    & img{
-      object-fit: contain;
-      height: 125px;
-    }
-  }
+a{
+  color: $red-color;
 }
+
 .song{
   color: $text-color;
   font-size: 2.5rem;
   font-weight: bold;
+  height: 400px;
 }
 figure {
-  height: 0;
+  height: 100%;
   padding-bottom: 56.25%; /* 16:9 */
   position: relative;
   width: 100%;
@@ -47,6 +34,10 @@ figure {
   }
 }
 .exercises{
+  margin-top: 100px;
+  @media (min-width: 768px){
+    margin-top: 0;
+  }
   &__title{
     font-size: 2.5rem;
     color: $text-color;
