@@ -3,56 +3,56 @@ export const room = [
         id: 1,
         spain: "la cama",
         polish: "łóżko",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        picture: "./img/room/bed.jpg",
+        alternate: "./img/room/chair.jpg",
     },
     {
         id: 2,
         spain: "el armario",
         polish: "szafa",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        picture: "./img/room/wardrobe.jpg",
+        alternate: "./img/room/bed.jpg",
     },
     {
         id: 3,
         spain: "el escritorio",
         polish: "biurko",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        picture: "./img/room/desk.jpg",
+        alternate: "./img/room/wardrobe.jpg",
     },
     {
         id: 4,
         spain: "la lámpara",
         polish: "lampa",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        picture: "./img/room/lamp.jpg",
+        alternate: "./img/room/armchair.jpg",
     },
     {
         id: 5,
         spain: "la silla",
         polish: "krzesło",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        picture: "./img/room/chair.jpg",
+        alternate: "./img/room/sofa.jpg",
     },
     {
         id: 6,
         spain: "el sillón",
         polish: "fotel",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        picture: "./img/room/armchair.jpg",
+        alternate: "./img/room/desk.jpg",
     },
     {
         id: 7,
         spain: "el sofá",
         polish: "kanapa",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        picture: "./img/room/sofa.jpg",
+        alternate: "./img/room/table.jpg",
     },
     {
         id: 8,
         spain: "la mesa",
         polish: "stół",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        picture: "./img/room/table.jpg",
+        alternate: "./img/room/lamp.jpg",
     },
 ]

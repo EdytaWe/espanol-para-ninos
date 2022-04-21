@@ -27,7 +27,7 @@ function Family(){
                 <div className="exercises">
                     <p>A teraz czas na zadania!</p>
                     <p className="pt-4">1. Posłuchaj słowa i wybierz poprawny obrazek:</p>
-                    <div className="row">
+                    <div className="row py-5">
                         <Quiz key={family[0].id} sound={family[0].spain} img1={family[0].picture} id1={1} img2={family[0].alternate} id2={2}/>
                         <Quiz key={family[9].id} sound={family[9].spain} img1={family[9].alternate} id1={2} img2={family[9].picture} id2={1}/>
                         <Quiz key={family[3].id} sound={family[3].spain} img1={family[3].alternate} id1={2} img2={family[3].picture} id2={1}/>
