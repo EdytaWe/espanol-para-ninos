@@ -4,6 +4,7 @@ import numbersArray from "./numbersArray";
 import Tile from "../base/Tile";
 import Quiz from "../base/Quiz";
 import {Link} from "react-router-dom";
+import Song from "../base/Song";
 
 
 
@@ -23,13 +24,7 @@ function Numbers() {
                     })
                 }
             </div>
-            <section className="row py-5 px-2 song">
-                    <span className="col-md-6 mb-3 mb-md-0 text-center align-self-center">By utrwalić to, czego się nauczyłeś posłuchaj piosenki!</span>
-                    <figure className="col-md-6">
-                        <iframe src="https://www.youtube.com/embed/8ydJr1Is8xI" title="numbers song">
-                        </iframe>
-                    </figure>
-            </section>
+            <Song link="https://www.youtube.com/embed/8ydJr1Is8xI" title="numbers song" />
             <section className="py-5 exercises">
             <p className="text-center py-3 exercises__title">A teraz czas na zadania:</p>
                 <p className="text-center py-3 exercise__one">1. Posłuchaj słowa i wybierz poprawny obrazek.</p>

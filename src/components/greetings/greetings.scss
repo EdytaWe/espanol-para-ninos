@@ -1,0 +1,18 @@
+.greetings{
+  padding-top: 0;
+  @media (min-width: 992px) {
+    padding-top: 50px;
+  }
+  @media (min-width: 1400px) {
+    padding-top: 100px;
+  }
+}
+.tile {
+  justify-content: center;
+  @media (min-width: 768px) {
+    height: 440px;
+  }
+  span {
+    text-align: center;
+  }
+}

@@ -14,30 +14,8 @@ a{
   color: $red-color;
 }
 
-.song{
-  color: $text-color;
-  font-size: 2.5rem;
-  font-weight: bold;
-  height: 400px;
-}
-figure {
-  height: 100%;
-  padding-bottom: 56.25%; /* 16:9 */
-  position: relative;
-  width: 100%;
-  & iframe {
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-  }
-}
 .exercises{
-  margin-top: 100px;
-  @media (min-width: 768px){
-    margin-top: 0;
-  }
+
   &__title{
     font-size: 2.5rem;
     color: $text-color;
