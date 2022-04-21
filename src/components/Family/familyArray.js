@@ -3,70 +3,70 @@ export const family = [
         id: 1,
         spain: "madre",
         polish: "mama",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        picture: "./img/family/mother.jpg",
+        alternate: "./img/family/brother.jpg"
     },
     {
         id: 2,
         spain: "padre",
         polish: "tata",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        picture:"./img/family/father.jpg",
+        alternate: "./img/family/doughter.jpg"
     },
     {
         id: 3,
-        spain: "siostra",
-        polish: "hermana",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        spain: "hermana",
+        polish: "siostra",
+        picture: "./img/family/sister.jpg",
+        alternate: "./img/family/mother.jpg"
     },
     {
         id: 4,
-        spain: "brat",
-        polish: "hermano",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        spain: "hermano",
+        polish: "brat",
+        picture: "./img/family/brother.jpg",
+        alternate: "./img/family/grandma.jpg"
     },
     {
         id: 5,
-        spain: "babcia",
-        polish: "abuela",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        spain: "abuela",
+        polish: "babcia",
+        picture: "./img/family/grandma.jpg",
+        alternate: "./img/family/uncle.jpg",
     },
     {
         id: 6,
-        spain: "dziadek",
-        polish: "abuelo",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        spain: "abuelo",
+        polish: "dziadek",
+        picture: "./img/family/grandpa.jpg",
+        alternate: "./img/family/son.jpg"
     },
     {
         id: 7,
-        spain: "ciocia",
-        polish: "tía",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        spain: "tía",
+        polish: "ciocia",
+        picture: "./img/family/aunt.jpg",
+        alternate: "./img/family/father.jpg"
     },
     {
         id: 8,
-        spain: "wujek",
-        polish: "tío",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        spain: "tio",
+        polish: "wujek",
+        picture: "./img/family/uncle.jpg",
+        alternate: "./img/family/sister.jpg"
     },
     {
         id: 9,
-        spain: "córka",
-        polish: "hija",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        spain: "hija",
+        polish: "córka",
+        picture: "./img/family/doughter.jpg",
+        alternate: "./img/family/aunt.jpg",
     },
     {
         id: 10,
-        spain: "syn",
-        polish: "hijo",
-        picture: "./img/numbers/1.png",
-        alternate: "./img/numbers/5.png"
+        spain: "hijo",
+        polish: "syn",
+        picture:"./img/family/son.jpg",
+        alternate: "./img/family/grandpa.jpg",
     },
 ]
